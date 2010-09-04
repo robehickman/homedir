@@ -1,0 +1,8 @@
+#!/bin/bash
+
+xpmroot .bg.png
+
+# == default programs
+#thunar &
+#gnome-terminal &
+#firefox &
