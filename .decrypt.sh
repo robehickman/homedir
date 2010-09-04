@@ -2,3 +2,4 @@
 
 gpg -o .private.tar -d .private
 tar -xvf .private.tar
+rm .private.tar
