@@ -1,0 +1,15 @@
+" 1.2 (created: 2008/08/16 18:51:52)
+" Mappings
+
+" Options
+" set guioptions=m
+
+" Abbreviations
+
+source! ~/.vimperatorrc.local
+
+" vim: set ft=vimperator:
+
+" set showtabline=0
+
+colorscheme desert
