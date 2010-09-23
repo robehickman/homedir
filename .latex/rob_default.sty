@@ -1,0 +1,67 @@
+\usepackage[pdftex]{graphicx}
+\usepackage{fancyhdr}
+\usepackage[usenames]{color}
+\usepackage{listings}
+
+% Change some page dimensions
+\addtolength{\hoffset}{-0cm}
+\addtolength{\textwidth}{1.5cm}
+\addtolength{\textheight}{4cm}
+\addtolength{\topmargin}{-1.2cm}
+\addtolength{\voffset}{-1cm}
+
+% Set up fancy headers
+\fancypagestyle{normal}{
+    \fancyhf{}
+    \fancyfoot[C]{\thepage}
+    \renewcommand{\headrulewidth}{1pt}
+    \renewcommand{\footrulewidth}{0pt}
+    \fancyhead[LE,RO]{Robert Hickman}
+    \fancyhead[LO]{\nouppercase{\leftmark}}
+}
+
+%set up code styling
+\definecolor{darkgreen}{rgb}{0.0,0.6,0.2} 
+
+\lstset{
+        comment=[s]{<!--}{-->},
+	language=PHP,
+	basicstyle=\color{black},
+	keywordstyle=\color{darkgreen},
+	identifierstyle=,
+	commentstyle=\color{blue},
+	stringstyle=\color{red},
+	showstringspaces=false
+}
+\lstdefinelanguage{CSS}{
+    comment=[s]{/*}{*/},
+    morekeywords={body, h1, h2, h3, h4, h5, h6, p, width, height, color,
+    position, top, left}
+}
+
+
+\lstdefinelanguage[]{HTML2}[]{HTML}{
+    comment=[s]{<!--}{-->},
+    morekeywords={frame}
+}
+%Set default title
+\author{Robert Hickman}
+
+%fix floats
+
+% See p.105 of "TeX Unbound" for suggested values.
+    % See pp. 199-200 of Lamport's "LaTeX" book for details.
+    %   General parameters, for ALL pages:
+    \renewcommand{\topfraction}{0.9}	% max fraction of floats at top
+    \renewcommand{\bottomfraction}{0.8}	% max fraction of floats at bottom
+    %   Parameters for TEXT pages (not float pages):
+    \setcounter{topnumber}{2}
+    \setcounter{bottomnumber}{2}
+    \setcounter{totalnumber}{4}     % 2 may work better
+    \setcounter{dbltopnumber}{2}    % for 2-column pages
+    \renewcommand{\dbltopfraction}{0.9}	% fit big float above 2-col. text
+    \renewcommand{\textfraction}{0.07}	% allow minimal text w. figs
+    %   Parameters for FLOAT pages (not text pages):
+    \renewcommand{\floatpagefraction}{0.7}	% require fuller float pages
+	% N.B.: floatpagefraction MUST be less than topfraction !!
+    \renewcommand{\dblfloatpagefraction}{0.7}	% require fuller float pages
