@@ -7,7 +7,7 @@ import XMonad.Layout.NoBorders
 main = xmonad $ defaultConfig {
     modMask            = mod4Mask,
     borderWidth        = 1,
-    terminal           = "gnome-terminal",
+    terminal           = "terminal",
     normalBorderColor  = "#000000",
     focusedBorderColor = "#0000bb",
     manageHook =  myManageHooks}
