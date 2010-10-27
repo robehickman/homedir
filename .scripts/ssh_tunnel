@@ -1,0 +1,2 @@
+#!/bin/bash
+ssh -N -f -D 8081 images@hessserver.dyndns.org
