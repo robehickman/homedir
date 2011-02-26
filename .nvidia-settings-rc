@@ -2,7 +2,7 @@
 # /home/a/.nvidia-settings-rc
 #
 # Configuration file for nvidia-settings - the NVIDIA X Server Settings utility
-# Generated on Tue Feb  2 16:51:34 2010
+# Generated on Tue Feb 22 22:17:02 2011
 #
 
 # ConfigProperties:
@@ -13,8 +13,8 @@ DisplayStatusBar = Yes
 SliderTextEntries = Yes
 IncludeDisplayNameInConfigFile = No
 ShowQuitDialog = No
-Timer = Thermal_Monitor_(GPU_0),Yes,1000
 Timer = PowerMizer_Monitor_(GPU_0),Yes,1000
+Timer = Thermal_Monitor_(GPU_0),Yes,1000
 
 # Attributes:
 
@@ -33,18 +33,18 @@ Timer = PowerMizer_Monitor_(GPU_0),Yes,1000
 0/FSAAAppControlled=1
 0/LogAnisoAppControlled=1
 0/OpenGLImageSettings=3
-0/RedBrightness=0.000000
-0/GreenBrightness=0.000000
-0/BlueBrightness=0.000000
-0/RedContrast=0.000000
-0/GreenContrast=0.000000
-0/BlueContrast=0.000000
+0/RedBrightness=0.064677
+0/GreenBrightness=0.064677
+0/BlueBrightness=0.064677
+0/RedContrast=-0.124378
+0/GreenContrast=-0.124378
+0/BlueContrast=-0.124378
 0/RedGamma=1.000000
 0/GreenGamma=1.000000
 0/BlueGamma=1.000000
 0/DigitalVibrance[DFP-0]=0
 0/ImageSharpening[DFP-0]=0
-0/GPUScaling[DFP-0]=131073
+0/GPUScaling[DFP-0]=131075
 0/XVideoTextureSyncToVBlank=1
 0/XVideoBlitterSyncToVBlank=0
 0/XVideoSyncToDisplay=65536

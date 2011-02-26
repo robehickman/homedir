@@ -1,6 +1,8 @@
 #!/bin/bash
 
-xpmroot .bg.png
+#xpmroot Cloudrise.png
+conky &
+#xpmroot .bg.png
 
 # == default programs
 #thunar &
